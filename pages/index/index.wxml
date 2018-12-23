@@ -1,0 +1,18 @@
+<!--style的优先级比class高会覆盖和class相同属性-->
+<!--头像-->
+<text>\n\n\n\n</text>
+<view style="display:flex;justify-content: center;">
+    <image  style="width:130rpx;height:130rpx;border-radius:50%;margin-top:10%;" src="../../image/logo.jpg"> </image>
+</view>
+<!--这个是输入框背景-->
+<view class="inputView">
+    <!--这个是输入框-->
+    <input class="input"  type="text" placeholder="请输入ICE账号" placeholder-style="color: gray" bindinput="listenerPhoneInput" value="{{phone}}" />
+</view>
+<view class="inputView">
+    <input class="input" password="true" placeholder="请输入密码" placeholder-style="color: gray" bindinput="listenerPasswordInput" value="{{password}}"/>
+</view>
+<!--登录按钮-->
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="listenerLogin">一键签到</button>
+<!--登录按钮-->
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="onLoad">重新扫码</button>

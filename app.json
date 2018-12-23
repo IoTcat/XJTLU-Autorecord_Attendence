@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/IDcard/IDcard",
+    "pages/logs/logs",
+    "pages/qr/index.xml",
+    "pages/qr/index"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  }
+}
